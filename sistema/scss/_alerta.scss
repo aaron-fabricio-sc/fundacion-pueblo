@@ -1,0 +1,44 @@
+.msg_error{
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+
+}
+.msg_save{
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.alert p{
+    padding: 10px;
+    background: rgb(10, 116, 63);
+}
+@media screen and (max-width:800px)
+{
+    .msg_error{
+
+        font-size: 15px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .msg_save{
+        font-size: 15px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    .alert p{
+        padding: 5px;
+        background: rgb(10, 116, 63);
+    }
+}
