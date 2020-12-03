@@ -1,0 +1,20 @@
+{
+  "name": "examen_sistema",
+  "version": "1.0.0",
+  "description": "Repositorio de fundación pueblo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-fabricio-sc/fundacion-pueblo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaron-fabricio-sc/fundacion-pueblo/issues"
+  },
+  "homepage": "https://github.com/aaron-fabricio-sc/fundacion-pueblo#readme"
+}
