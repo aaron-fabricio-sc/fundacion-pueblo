@@ -1,0 +1,81 @@
+/*   eliminar usuario*/
+.eliminar{
+    width: 80%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.eliminar h3{
+    font-size: 21pt;
+    color:#fff;
+}
+
+.eliminar p{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17pt;
+    color:rgb(0, 204, 255);
+}
+.eliminar span{
+    padding: 10px;
+    font-family: arial;
+    font-size: 17pt;
+    color:#fff;
+}
+
+.b{
+    position: relative;
+}
+
+
+.atras{
+    display: block;
+    text-align: center;
+    background: rgb(0,0,0);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+   
+    font-size: 18px;
+    box-shadow: 0px 0px 5px rgba(255,255,255,.9);
+    letter-spacing: 2px;
+    transition: all .4s;
+    border-radius: 6px;
+
+    margin: 12px auto;
+}
+.atras:hover{
+    background: rgba(0,0,0,1);
+    box-shadow: 5px 5px 10px #424048;
+    color:#fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+    .eliminar h3{
+        font-size: 17px;
+        color:#fff;
+    }
+    
+    .eliminar p{
+        padding: 4px;
+        font-size: 15px;
+    }
+    .eliminar span{
+        padding: 4px;
+        font-size: 13px;
+    }
+    
+    .atras{
+        width: 50%;
+        padding: 8px 14px;
+        cursor: pointer;    
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+}

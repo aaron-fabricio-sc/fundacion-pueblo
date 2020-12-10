@@ -1,0 +1,215 @@
+/*DISEÑO DE FORMULARIOS*/
+
+.contenedor1{
+    
+    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 1200px;
+    margin:  auto ;
+    height: auto;
+    
+}
+.titulo{
+    text-align: center;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: rgb(253, 253, 253);
+    font-size: 32px;
+  
+    }
+
+    
+.form1{
+    width: 90%;
+    max-width: 1000px;
+   
+    margin: auto;
+    margin-top: 30px;
+    padding: 25px;
+    box-shadow: 3px 5px 50px 6px rgba(255, 255, 255, 0.5);
+    
+    border: 1px solid rgba(255, 255, 255, 0.603);
+ 
+    background: rgba(8, 8, 8, 0.473);
+   
+    border-radius: 15px;
+    height: auto;
+}
+
+
+.label_for1 {
+
+    padding: 5px;
+
+    letter-spacing: 1px;
+    color :#FFF;
+    background: rgba(0, 0, 0, 0.493);
+    margin-top: 1.5%;
+    border: none;
+    font-size: 18px;
+   
+ 
+}
+
+.input_form1 { 
+    border-radius: 8px;
+    padding: 1%;
+    background: rgba(55, 112, 106, 0.596);
+    border: none;
+    color: white;
+   
+    border-bottom: 4px solid rgba(171, 180, 248, 1); 
+    transition: all 0.6s ease;
+    letter-spacing: 2px;
+    margin-top: 1%;
+    font-size: 100%;
+    margin-bottom: 1%;
+   
+    
+}
+.input_form1:focus{
+   outline: none;
+    background:   rgba(94, 143, 173, 0.7);
+    border-bottom: 4px solid  rgba(0, 0, 0, 1);
+    color: black;
+    
+    
+}
+
+input, select{
+    padding: 1%;
+
+    background: rgba(171, 248, 240, 0.2);
+    border: none;
+    width: 50%;
+    border-bottom: 4px solid rgba(171, 180, 248, 1); 
+    transition: all 0.6s ease;
+    letter-spacing: 2px;
+    margin-top: 1%;
+    font-size: 130%;
+    margin-bottom: 1%;
+    width: 60%;
+}
+ .noelemen option:first-child{
+     display: none;
+ }
+
+
+
+.boton{
+    display: block;
+
+    background: rgb(0,0,0);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+   
+    font-size: 18px;
+    box-shadow: 0px 0px 5px rgba(255,255,255,.9);
+    letter-spacing: 2px;
+    transition: all .4s;
+    border-radius: 6px;
+
+    margin: auto;
+
+}
+
+
+
+.boton:hover{
+    background: rgba(0,0,0,1);
+    box-shadow: 5px 5px 10px #424048;
+    color:#fff;
+}
+.atras{
+    display: block;
+    text-align: center;
+    background: rgb(0,0,0);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+   
+    font-size: 18px;
+    box-shadow: 0px 0px 5px rgba(255,255,255,.9);
+    letter-spacing: 2px;
+    transition: all .4s;
+    border-radius: 6px;
+    width: 60%;
+    margin: 12px auto;
+}
+.atras:hover{
+    background: rgba(0,0,0,1);
+    box-shadow: 5px 5px 10px #424048;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:800px){
+    .input_form1 { 
+        display: block;
+        padding: 1%;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        font-size: 15px;
+        margin-bottom: 1%;
+        width: 90%;
+        
+        
+    }
+    .form1
+    {
+        margin-top:0px;
+        padding: 15px;
+        margin-top: 30px;
+
+    }
+    .label_for1 {
+        padding: 2px;
+        letter-spacing: 0px;
+        color :#FFF;
+        background: rgba(0, 0, 0, 0.493);
+        margin-top: 5px;
+        border: none;
+        font-size: 15px;
+       
+     
+    }
+   
+    .boton{
+        width: 50%;
+        padding: 8px 14px;
+        cursor: pointer;    
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    input, select{
+        display: block;
+        padding: 1%;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        font-size: 15px;
+        margin-bottom: 1%;
+        width: 90%;
+    }
+    .atras{
+        width: 50%;
+        padding: 8px 14px;
+        cursor: pointer;    
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .bus
+{
+    padding: 3px;
+    color: red;
+}
+
+}

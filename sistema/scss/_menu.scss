@@ -1,0 +1,186 @@
+.menu{
+    display: none;
+}
+
+
+header nav{
+   
+    width: auto;
+    max-width: 970px;
+    margin: 35px auto;
+    background:#024959 ;
+    position: relative;
+    z-index: 100;
+    
+}
+
+    
+header nav ul{
+    margin: 0 25px ;
+    display: flex;
+    justify-content: space-between;
+    
+    list-style: none;
+ 
+}
+header nav ul li{
+position: relative;
+    width: auto;
+
+}
+header nav ul li a{
+   color:#fff;
+   display: block;
+   padding: 16px;
+    font-size: 17px;
+   text-decoration: none;
+   position: relative;
+
+}
+
+header nav ul li a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+header nav ul li span{
+    margin-right: 17px;
+}
+
+
+header nav ul li a:hover{
+    
+    background: #037E8C;
+    
+}
+a span{
+    margin-right: 20px;
+}
+
+
+
+
+header nav ul li .listado{
+
+    display: none;
+    background: #011826;
+    position: absolute;
+    width: 170%;
+    
+}
+
+header nav ul li:hover .listado{
+    
+    display: block;
+ 
+}
+header nav ul li .listado li {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+ 
+}
+header nav ul li .listado li a{
+   
+    display: block;
+   font-size: 16px;
+}
+
+header nav ul li .listado li a span{
+    float: right;
+    position: relative;
+    top: 2px;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:800px){
+    
+    
+    .menu{
+    position: relative;
+    margin-top: 1%;
+    display: block;
+    width: 100%;
+    top:0;  
+ 
+}
+    .menu .btn{
+        display: block;
+        padding:  10px;
+        background: rgba(2, 40, 54, 0.95);
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: left;
+        
+    }
+    .menu span{
+        float: right;
+        font-size:20px;
+    }
+    header nav{
+        z-index: 1000;
+        overflow-y: scroll;
+        width: 55%;
+        left: -100%;
+        height: calc(100% - 300px);
+        margin: 0;
+        position: absolute;
+        background: rgba(2, 40, 54, 0.904);
+        
+}   
+
+        header nav ul{
+            margin: 0;
+            display: inline-block;
+        
+}
+    header nav ul li{
+        width: 300%;
+        display: block;
+         list-style: none;
+        border-bottom: 3px solid rgba(255,255,255,0.5);
+    
+    
+}
+    header nav ul li a{
+       display: block;
+        font-size: 12px;
+        width: 100%;
+    }
+  
+    
+    header nav ul li:hover .listado{
+        display: none;
+       
+    }
+    header nav ul li .listado{
+        width: 40%;
+        position: relative;
+        
+}
+    
+    header nav ul li .listado li a{
+        width:100%;
+       
+        font-size: 12px;
+    }
+  
+    header nav ul li .listado li a span{
+        
+        position: relative;
+        top: 2px;
+        margin-right: 0;
+        margin-left: 0px;
+    }
+
+    
+    
+    
+    }

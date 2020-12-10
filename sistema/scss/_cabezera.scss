@@ -1,0 +1,101 @@
+/* CABEZERA*/
+.header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: rgb(14, 51, 65);
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+     padding: 2px;
+     
+     z-index: 1000000;
+    
+
+}
+.header h1{
+color: aliceblue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+width: auto;
+
+}
+
+.header .salir{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: auto;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: all .4s;    
+     height: 100%;
+
+}
+.header .salir samp{
+    margin: 0;
+ 
+}
+.header .salir:hover{
+
+    background: #037E8C;
+   
+
+}
+
+.header p{
+    color: aliceblue;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 7%;
+    width: auto;
+    font-size: 18px;
+    text-align: center;
+    }
+
+    @media screen and (max-width:800px){
+
+        .header{
+       
+    
+            padding:2px;
+                
+            
+            }
+            .header h1{
+            color: aliceblue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            width: auto;
+            
+            }
+            .header .salida{
+              height: auto;
+              margin-left: 1%;;
+            }
+            .header .salir{
+                font-size: 13px;
+                height: auto;
+              
+        
+            }
+            .header .salir:hover{
+            
+                background: #037E8C;
+               
+            
+            }
+            
+            .header p{
+              
+             
+                width: auto;
+                font-size: 11px;
+        
+                }
+            }

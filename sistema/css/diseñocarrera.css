@@ -1,0 +1,196 @@
+*{
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+body{
+    background:url(../img/img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5)
+}
+h1{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 40px;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+header nav{
+    width: 85%;
+       margin: 20px auto;
+    background:#024959 ;
+    z-index: 1000;
+}
+.menu{
+    display: none;
+}
+header nav ul{
+     list-style: none;
+
+    display:-webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    
+    width: auto;
+    
+    position: relative;
+}
+header nav ul li a{
+ text-align: center;
+    font-size: 17px;
+    color:papayawhip;
+    text-decoration: none;
+    padding: 30px ;
+    
+    display: block;
+    
+
+}
+header nav ul li a:hover{
+    background: #037E8C;
+}
+
+header nav ul li:hover .listado{
+    
+    overflow: scroll;
+}
+
+header nav ul li .listado{
+    display: none;
+    background: #011826;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    
+}
+header nav ul li .listado li {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+   
+    
+}
+header nav ul li .listado li a{
+    text-align: left;
+    display: block;
+   font-size: 18px;
+}
+a span{
+ 
+    margin-right: 20px;
+}
+header nav ul li .caret{
+
+    position: relative;
+    bottom:0px;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+header nav ul li .listado li a span{
+    float: right;
+    position: relative;
+    top: 2px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+
+@media screen and (max-width:800px){
+    
+    
+    .menu{
+        position: relative;
+    margin-top: 1%;
+    display: block;
+    width: 100%;
+    top:0;    
+ 
+    
+        
+}
+    .menu .btn{
+    display: block;
+    padding:  20px;
+    background: rgba(2, 40, 54, 0.95);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 140%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+    .menu span{
+        float: right;
+        font-size:25px;
+    }
+    header nav{
+        overflow-y: scroll;
+        width: 70%;
+        left: -100%;
+        height: calc(100% - 500px);
+        margin: 0;
+       
+        position: absolute;
+        background: rgba(2, 40, 54, 0.95);
+        
+}   
+    header nav ul li{
+    display: block;
+    
+    width: 100%;
+    border-bottom: 3px solid  rgba(255,255,255,0.5) ;
+    
+    
+}
+    header nav ul li a{
+        text-align: left;
+        display: block;
+    }
+    
+    header nav ul li:hover .listado{
+        display: none;
+    }
+    header nav ul li .listado{
+        width: 100%;
+        position: relative;
+        
+}
+    
+    header nav ul li a .listado li a{
+        margin-left: 20px;
+    }
+    header nav ul li .caret{
+        float: right;
+    }
+    .input_form1{
+        display: block;
+        
+    
+    }
+   
+ 
+    }
